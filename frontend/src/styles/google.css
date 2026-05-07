@@ -1,0 +1,62 @@
+.google-btn {
+  display: flex;
+  justify-content: center;
+}
+/* Card Styling */
+.login-card {
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+
+.login-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Input Fields */
+.input-field {
+  border-radius: 8px;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+.input-field:focus {
+  border-color: #4a6cf7;
+  box-shadow: 0 0 5px rgba(74,108,247,0.3);
+}
+
+/* Divider */
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #ddd;
+}
+
+.divider span {
+  padding: 0 10px;
+  color: #888;
+  font-size: 14px;
+}
+
+/* Google Button Wrapper */
+.google-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* Button Hover */
+.btn-primary:hover {
+  background-color: #3b5bdb;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #f1f1f1;
+}
